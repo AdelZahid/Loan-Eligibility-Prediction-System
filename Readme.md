@@ -55,17 +55,19 @@ Running the Application
 bash
 python app.py
 
+### Project Structure
+
 loan-prediction-app/
 │
 ├── app.py # Main Flask application
-├── loan_status_model.pkl # Trained SVM model (YOU NEED TO ADD THIS)
+├── loan_status_model.pkl # Trained SVM model (you must add this)
 ├── requirements.txt # Python dependencies
+├── loan-train.csv # Dataset used for training
+├── Loan_status_prediction.ipynb # Model training notebook
 ├── README.md # This file
 │
 ├── templates/
-│ └── index.html # Web interface template
-|
-├── test_prediction.py # Model testing script
-├── check_model.py # Model verification
-|\_\_\_Loan_status_prediction.ipynb
-└── loan-train.csv
+│ └── index.html # Web interface
+│
+├── test_prediction.py # Test predictions via script
+└── check_model.py # Verify model l
